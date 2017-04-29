@@ -158,6 +158,9 @@ public class ReportCardActivity extends AppCompatActivity {
     }
 
     private void setData() {
+
+        nextClass = true;
+
         setGrade(readingGrade,reportCard.getReadingMark());
         setGrade(languageArtsGrade,reportCard.getLanguageArtsMark());
         setGrade(basicMathGrade,reportCard.getBasicMathMark());
