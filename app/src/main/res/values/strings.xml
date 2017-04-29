@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Report Card</string>
+    <string name="student_first_name" translatable="false">student_first_name</string>
+    <string name="student_second_name" translatable="false">student_second_name</string>
+    <string name="reading_mark" translatable="false">reading_mark</string>
+    <string name="language_art_mark" translatable="false">language_arts_mark</string>
+    <string name="basic_math_mark" translatable="false">basic_math_mark</string>
+    <string name="algebra_mark" translatable="false">algebra_mark</string>
+    <string name="art_mark" translatable="false">art_mark</string>
+    <string name="health_mark" translatable="false">health_mark</string>
+    <string name="check_result_button_text">Check result</string>
+    <string name="student_data_text">Student Data</string>
+    <string name="first_name_hint">First name</string>
+    <string name="second_name_hint">Second name</string>
+    <string name="reading_hint">Reading</string>
+    <string name="language_art_hint">Language art</string>
+    <string name="basic_math_hint">Basic Math</string>
+    <string name="algebra_hint">Algebra</string>
+    <string name="art_hint">Art</string>
+    <string name="health_hint">Health</string>
+    <string name="valu_check_in_student_data">Red value must be under 100% !</string>
+    <string name="report_card_rating_pass">Based on the student grades.\nHe/she can pass to the next class.</string>
+    <string name="report_card_rating_repeat">Based on the student grades.\nHe/she must repeat the current class.</string>
+    <string name="report_card_percentage_value_text">%.2f %%</string>
+    <string name="grade_a">A</string>
+    <string name="grade_b">B</string>
+    <string name="grade_c">C</string>
+    <string name="grade_d">D</string>
+    <string name="grade_f">F</string>
+    <string name="report_card_check_mark_value_text">Value must be under 100% !</string>
+    <string name="avarage_percentage">Avarage percentage</string>
+    <string name="avarage_grade">Avarage grade</string>
+    <string name="change_percentage">Change percentage</string>
+    <string name="percentage">%</string>
+    <string-array name="marks">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>F</item>
+    </string-array>
+    <string-array name="subjects">
+        <item>Reading</item>
+        <item>Language arts</item>
+        <item>Basic Math</item>
+        <item>Algebra</item>
+        <item>Art</item>
+        <item>Health</item>
+    </string-array>
+</resources>

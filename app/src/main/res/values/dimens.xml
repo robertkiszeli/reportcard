@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="studant_data_base_text_size">24sp</dimen>
+    <dimen name="report_card_student_name_text_size">24sp</dimen>
+    <dimen name="report_card_base_text_size">16sp</dimen>
+    <dimen name="report_card_percentage_text_size">24sp</dimen>
+    <dimen name="report_card_margin_size">10dp</dimen>
+</resources>

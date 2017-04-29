@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/report_card_student_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/report_card_margin_size"
+        android:layout_weight="2"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/report_card_student_name_text_size" />
+
+    <android.support.v7.widget.LinearLayoutCompat style="@style/report_card_row_layout">
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/report_card_row_text"
+            android:text="@string/reading_hint" />
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/report_card_reading_grade"
+            style="@style/report_card_row_data" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat style="@style/report_card_row_layout">
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/report_card_row_text"
+            android:text="@string/language_art_hint" />
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/report_card_language_arts_grade"
+            style="@style/report_card_row_data" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat style="@style/report_card_row_layout">
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/report_card_row_text"
+            android:text="@string/basic_math_hint" />
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/report_card_basic_math_grade"
+            style="@style/report_card_row_data" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat style="@style/report_card_row_layout">
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/report_card_row_text"
+            android:text="@string/algebra_hint" />
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/report_card_algebra_grade"
+            style="@style/report_card_row_data" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat style="@style/report_card_row_layout">
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/report_card_row_text"
+            android:text="@string/art_hint" />
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/report_card_art_grade"
+            style="@style/report_card_row_data" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat style="@style/report_card_row_layout">
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/report_card_row_text"
+            android:text="@string/health_hint" />
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/report_card_health_grade"
+            style="@style/report_card_row_data" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat style="@style/report_card_row_layout">
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/report_card_row_text"
+            android:text="@string/avarage_percentage" />
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/report_card_avarage_percentage"
+            style="@style/report_card_row_data" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat style="@style/report_card_row_layout">
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/report_card_row_text"
+            android:text="@string/avarage_grade" />
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/report_card_avarage_grade"
+            style="@style/report_card_row_data" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/change_percentage"
+        android:textSize="@dimen/report_card_base_text_size" />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/report_card_change_percentage_spinner"
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="wrap_content"/>
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/report_card_change_percentage_edit_text"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/percentage"
+            android:textSize="@dimen/report_card_percentage_text_size" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/report_card_change_percentage_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/change_percentage"
+        android:textSize="@dimen/report_card_base_text_size" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/report_card_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/report_card_base_text_size" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+</ScrollView>

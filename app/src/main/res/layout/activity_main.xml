@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.robertkiszelirk.reportcard.MainActivity">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/student_data_text"
+        android:textSize="@dimen/studant_data_base_text_size" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/student_first_name_edit_text"
+        style="@style/student_name"
+        android:hint="@string/first_name_hint" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/student_second_name_edit_text"
+        style="@style/student_name"
+        android:hint="@string/second_name_hint" />
+
+    <android.support.v7.widget.LinearLayoutCompat style="@style/student_data_subject_layout">
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/student_data_subject_text"
+            android:text="@string/reading_hint" />
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/reading_edit_text"
+            style="@style/student_data_subject_edit_text"
+            android:inputType="numberDecimal" />
+        <android.support.v7.widget.AppCompatTextView style="@style/student_data_subject_percentage" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat style="@style/student_data_subject_layout">
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/student_data_subject_text"
+            android:text="@string/language_art_hint" />
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/language_art_edit_text"
+            style="@style/student_data_subject_edit_text"
+            android:inputType="numberDecimal" />
+        <android.support.v7.widget.AppCompatTextView style="@style/student_data_subject_percentage" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat style="@style/student_data_subject_layout">
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/student_data_subject_text"
+            android:text="@string/basic_math_hint" />
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/basic_math_edit_text"
+            style="@style/student_data_subject_edit_text"
+            android:inputType="numberDecimal" />
+        <android.support.v7.widget.AppCompatTextView style="@style/student_data_subject_percentage" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat style="@style/student_data_subject_layout">
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/student_data_subject_text"
+            android:text="@string/algebra_hint" />
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/algebra_edit_text"
+            style="@style/student_data_subject_edit_text"
+            android:inputType="numberDecimal" />
+        <android.support.v7.widget.AppCompatTextView style="@style/student_data_subject_percentage" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat style="@style/student_data_subject_layout">
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/student_data_subject_text"
+            android:text="@string/art_hint" />
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/art_edit_text"
+            style="@style/student_data_subject_edit_text"
+            android:inputType="numberDecimal" />
+        <android.support.v7.widget.AppCompatTextView style="@style/student_data_subject_percentage" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat style="@style/student_data_subject_layout">
+        <android.support.v7.widget.AppCompatTextView
+            style="@style/student_data_subject_text"
+            android:text="@string/health_hint" />
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/health_edit_text"
+            style="@style/student_data_subject_edit_text"
+            android:inputType="numberDecimal" />
+        <android.support.v7.widget.AppCompatTextView style="@style/student_data_subject_percentage" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/check_result_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/check_result_button_text"
+        android:textSize="@dimen/studant_data_base_text_size" />
+
+</android.support.v7.widget.LinearLayoutCompat>

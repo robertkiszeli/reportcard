@@ -1,0 +1,71 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="student_name">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/studant_data_base_text_size</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="student_data_subject_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="student_data_subject_text">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">7</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/studant_data_base_text_size</item>
+    </style>
+
+    <style name="student_data_subject_edit_text">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/studant_data_base_text_size</item>
+    </style>
+
+    <style name="student_data_subject_percentage">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/studant_data_base_text_size</item>
+        <item name="android:text">%</item>
+    </style>
+
+    <style name="report_card_row_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">@dimen/report_card_margin_size</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="report_card_row_text">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">@dimen/report_card_base_text_size</item>
+    </style>
+
+    <style name="report_card_row_data">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">@dimen/report_card_base_text_size</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+
+</resources>
